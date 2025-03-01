@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#parsleyform").parsley();window.Parsley.addValidator('phonenum',{validateString:function(value){var patt=new RegExp("^09(1[0-9]|3[1-9]|2[1-9])-?[0-9]{3}-?[0-9]{4}$");return patt.test(value);},messages:{en:'لطفا شماره موبایل را با فرمت صحیح وارد کنید'}});});
